@@ -96,7 +96,6 @@ def pascal(n):
 
 pascal(0)
 
-
 pascal(2)
 
 pascal(4)
