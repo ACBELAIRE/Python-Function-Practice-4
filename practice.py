@@ -26,3 +26,21 @@ def mult_list(list):
 print(mult_list([5,7,8,10,14]))
 
 
+#Write a Python function called rev_string() to reverse a string.
+
+def rev_string(str):
+    return str[::-1]
+
+print(rev_string('Hello'))
+print(rev_string('It is a String Reversed'))
+
+#Write a Python function called num_within() to check whether a number falls in a given range.
+
+def num_within(a,b,c):
+    if a >= b and a <= c :
+        return True
+    else:
+        return False
+
+print(num_within(3,6,9))
+print(num_within(1,-1,2))
