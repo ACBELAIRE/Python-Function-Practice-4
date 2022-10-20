@@ -7,3 +7,22 @@ def max_num(a,b,c):
 max_num(1231,134,23)
 
 
+#Write a Python function called mult_list() to multiply all the numbers in a list.
+
+def mult_list(list):
+        #if the list is empty return 0
+    if len(list) == 0:
+        return 0
+        #multiplication will start with the first number in the list
+    prod = list[0]
+        # is the length of the list is greater than onem iterated thru each item in the list  from the first to the end 
+        # make the product equal to  the first element times by each element of x as it iterates
+    if len(list)> 1:
+        for x in list[1:]:
+            prod = prod * x
+        #after it is completed iteration return the product of the list
+    return prod
+
+print(mult_list([5,7,8,10,14]))
+
+
